@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Removes mobs that aren't in Beta 1.7.3",
+    "pack_format": 34
+  }
+}
