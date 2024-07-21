@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "no-modern-mobs",
+	"version": "${version}",
+	"name": "No Modern Mobs",
+	"description": "Removes mobs that aren't in Beta 1.7.3+",
+	"authors": [
+		"herrobriam"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/no-modern-mobs",
+		"sources": "https://github.com/herrobriam/no-more-modern-mobs"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/no-modern-mobs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.herrobriam.nomodernmobs.NoModernMobs"
+		],
+		"fabric-datagen": [
+			"net.herrobriam.nomodernmobs.NoModernMobsDataGenerator"
+		]
+	},
+	"mixins": [
+		"no-modern-mobs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.20.2",
+		"java": ">=11"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
